@@ -26,14 +26,14 @@ with `:wq`, saving and quitting at the same time.
 
 #### Modes of Vim
 
-Before we jump into movement, we should quickly go over 3 modes of vim; 
+Before we jump into movement, we should quickly go over 3 modes of vim;
 normal, insert and visual. You can enter these modes at any time while not in
 another mode, and can get out of them by hitting the `esc` key.
 
 ##### Normal
 
 Normal mode is the default mode of vim, and the mode vim goes to when the
-escape key is pressed. In this mode, you can freely move the cursor, do some 
+escape key is pressed. In this mode, you can freely move the cursor, do some
 limited text manipulation, enter commands, search, and enter the other two modes.
 
 Any vim command that is not a simple keypress will start with a `:` and is
@@ -91,7 +91,7 @@ end of the line.
 Advanced movement will be described more later.
 
 ### Getting more advanced
-Something to remember while using vim, if you want to do some simple changes 
+Something to remember while using vim, if you want to do some simple changes
 to text or movement in vim, theres a good chance that it exists, and you should
 check online to see what the command is.
 
@@ -142,7 +142,7 @@ through all results using `n` and `N` to go forwards and backwards respectively.
 ### Finally
 Vim is a very powerful text editing tool, and if you get used to it you will
 never want to go back to anything less. there are great resources out there for
-commands and shortcuts, the one I've been using for writing this guide is 
+commands and shortcuts, the one I've been using for writing this guide is
 [vimsheet.com](www.vimsheet.com). There are many plugins for vim but I wouldn't
 reccommend getting any until you are more comfortable with vim.
 
@@ -193,11 +193,11 @@ escape key)
 block code is denoted by three \` characters, and syntax highlighting works by
 putting the code type on the first line.
 
-//code//java
+```java
 if(bool.toString().equals("true")) {
     return 1 == 1;
 }
-//code//
+```
 
 The last few things that markdown does are numbered and bulleted lists
 1 numbered lists start with 1. but any number after doesn't matter
